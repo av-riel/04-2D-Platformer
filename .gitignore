@@ -187,8 +187,3 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# Windows shortcuts
-*.lnk
-04 Exercises/Exercise-04a-State-Machine/
-04 Exercises/Exercise-04b-Hide-and-Seek/
-04 Exercises/Exercise-04c-Levels/
