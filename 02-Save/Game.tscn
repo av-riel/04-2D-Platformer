@@ -203,7 +203,7 @@ text = "Quit Game"
 script = ExtResource( 6 )
 
 [node name="StabRabbit1" parent="Enemy_Container" instance=ExtResource( 5 )]
-position = Vector2( 785, 138 )
+position = Vector2( 783.586, 163.456 )
 
 [node name="StabRabbit2" parent="Enemy_Container" instance=ExtResource( 5 )]
 position = Vector2( 1646.26, 292.149 )
@@ -215,48 +215,56 @@ position = Vector2( 2062.52, 552.286 )
 position = Vector2( 3096.45, 556.061 )
 
 [node name="Boundary" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="1" type="CollisionShape2D" parent="Enemy_Container/Boundary"]
 position = Vector2( 743.876, 165.463 )
 shape = SubResource( 6 )
 
 [node name="Boundary2" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="2" type="CollisionShape2D" parent="Enemy_Container/Boundary2"]
 position = Vector2( 919.239, 168.291 )
 shape = SubResource( 6 )
 
 [node name="Boundary3" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="3" type="CollisionShape2D" parent="Enemy_Container/Boundary3"]
 position = Vector2( 1510.38, 298.399 )
 shape = SubResource( 6 )
 
 [node name="Boundary4" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="4" type="CollisionShape2D" parent="Enemy_Container/Boundary4"]
 position = Vector2( 1814.44, 295.571 )
 shape = SubResource( 6 )
 
 [node name="Boundary5" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="5" type="CollisionShape2D" parent="Enemy_Container/Boundary5"]
 position = Vector2( 1957.27, 550.129 )
 shape = SubResource( 6 )
 
 [node name="Boundary6" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="6" type="CollisionShape2D" parent="Enemy_Container/Boundary6"]
 position = Vector2( 2713.88, 551.543 )
 shape = SubResource( 6 )
 
 [node name="Boundary7" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="7" type="CollisionShape2D" parent="Enemy_Container/Boundary7"]
 position = Vector2( 2982.58, 552.958 )
 shape = SubResource( 6 )
 
 [node name="Boundary8" type="StaticBody2D" parent="Enemy_Container"]
+collision_layer = 16384
 
 [node name="8" type="CollisionShape2D" parent="Enemy_Container/Boundary8"]
 position = Vector2( 3739.18, 550.129 )
