@@ -1,16 +1,15 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Assets/mine_01.png" type="Texture" id=1]
-[ext_resource path="res://Assets/mine_02.png" type="Texture" id=2]
-[ext_resource path="res://Assets/mine_03.png" type="Texture" id=3]
+[ext_resource path="res://avi assets/trashpanda.png" type="Texture" id=1]
+[ext_resource path="res://avi assets/trashpanda2.png" type="Texture" id=2]
 [ext_resource path="res://Mine/Mine.gd" type="Script" id=4]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ) ],
+"frames": [ ExtResource( 1 ), ExtResource( 2 ) ],
 "loop": true,
-"name": "default",
-"speed": 5.0
+"name": "trashpanda",
+"speed": 1.0
 } ]
 
 [node name="Mine" type="Area2D"]
@@ -19,10 +18,10 @@ script = ExtResource( 4 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 0.4, 0.4 )
 frames = SubResource( 1 )
-frame = 1
+animation = "trashpanda"
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PoolVector2Array( 0, -29, -29, 28, 28.5, 26.5 )
+polygon = PoolVector2Array( -16.6045, -15.1841, -13.4864, 20.4518, -5.02282, 25.4631, 6.55886, 25.4631, 14.6883, 20.8973, 17.4724, -15.1841, 7.00431, -22.2, -4.46601, -22.2 )
 
 [connection signal="body_entered" from="." to="." method="_on_Mine_body_entered"]
