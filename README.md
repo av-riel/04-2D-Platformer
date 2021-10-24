@@ -4,14 +4,14 @@ last updated 10/23/21
 
 In a post apocalyptic landscape, avoid the trash pandas, wasps, and stab rabbits (bats currently) while collecting as many coins as you can)
 
-##Implementaion
+#Implementaion
 -new tilemap: original assets for floor, wall, and block tiles
 -enemies: original sprite animation assets for wasp and trash pandas, (tab rabbits currently using bat sprite and are just obstacles)
 -music: original asset background music
 -background: original asset background
 -midground: original asset midground
 
-##Future Development
+#Future Development
 -add stab rabbit animated sprite
 -stab rabbit state machine - looking (walks set area) and defend (shoots thorns at player)
 -make midground a parallax background
@@ -19,5 +19,5 @@ In a post apocalyptic landscape, avoid the trash pandas, wasps, and stab rabbits
 -new player animated sprites
 -white end portal
 
-##Created by
+#Created by
 Avriel Donaldson
