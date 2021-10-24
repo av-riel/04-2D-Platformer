@@ -16,10 +16,9 @@ In a post apocalyptic landscape, avoid the trash pandas, wasps, and stab rabbits
 -stab rabbit state machine - looking (walks set area) and defend (shoots thorns at player)
 -make midground a parallax background
 -play walking sound effect when player walking on tiles
+-add trash panda attack animation instead of explosion
 -new player animated sprites
--white end portal
+-white end portal to other levels
 
 ## Created by
 Avriel Donaldson
-
-
