@@ -2,7 +2,7 @@
 for C220 Game Technology
 last updated 10/23/21
 
-In a post apocalyptic landscape, avoid the trash pandas, wasps, and stab rabbits (bats currently) while collecting as many coins as you can)
+In a post apocalyptic landscape, avoid the trash pandas, wasps, and stab rabbits (bats currently) while collecting as many coins as you can.
 
 ## Implementaion
 -new tilemap: original assets for floor, wall, and block tiles
