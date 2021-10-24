@@ -54,3 +54,5 @@ func set_animation(anim):
 func die():
 	Backup.current = true
 	queue_free()
+
+
