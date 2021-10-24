@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/apocalypse.wav-77b87698d0f67725e24153887971aa86.sample"
+
+[deps]
+
+source_file="res://avi assets/Project 4 Assets-20211024T020510Z-001/Project 4 Assets/apocalypse.wav"
+dest_files=[ "res://.import/apocalypse.wav-77b87698d0f67725e24153887971aa86.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
