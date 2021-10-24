@@ -6,7 +6,7 @@ In a post apocalyptic landscape, avoid the trash pandas, wasps, and stab rabbits
 
 ## Implementaion
 -new tilemap: original assets for floor, wall, and block tiles
--enemies: original sprite animation assets for wasp and trash pandas, (stab rabbits currently using bat sprite and are just obstacles)
+-enemies(3): original sprite animation assets for wasp and trash pandas, (stab rabbits currently using bat sprite and are just obstacles)
 -music: original asset background music
 -background: original asset background
 -midground: original asset midground
